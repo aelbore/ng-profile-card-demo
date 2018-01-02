@@ -1,0 +1,10 @@
+:host {
+  display: block;
+}
+
+:host /deep/ { 
+  .content {
+    margin-top: 15px;
+  }
+}
+

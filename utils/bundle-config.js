@@ -20,6 +20,7 @@ module.exports = {
       "@angular/platform-browser",
       "@angular/platform-browser-dynamic",
       "@angular/elements",
+      "Rx"
     ],
     "globals": { 
       "@angular/core": "ng.core",
@@ -32,7 +33,8 @@ module.exports = {
       "@angular/platform-browser/animations": "ng.platformBrowser.animations",
       "@angular/platform-browser": "ng.platformBrowser",
       "@angular/platform-browser-dynamic": "ng.platformBrowserDynamic",
-      "@angular/elements": "ng.elements"
+      "@angular/elements": "ng.elements",
+      "Rx": "Rx"
     }
   },
   "folder": { 

@@ -1,3 +1,5 @@
-<div class="col-md-3" *ngFor="let profile of profiles | async">
-  <profile-card [profile]=profile></profile-card>
+<div class="content">
+  <div class="col-md-3" *ngFor="let profile of profiles | async">
+    <profile-card [profile]=profile></profile-card>
+  </div>
 </div>
